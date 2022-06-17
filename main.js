@@ -99,3 +99,49 @@ function createObject() {
 
 
 }
+
+
+
+const newObject0 = {
+    firstName: "shlomo",
+    lastName: "hailo",
+    city: "kriat malachi",
+    age: 29
+}
+
+const newObject1 = {
+    firstName: "shlomo",
+    lastName: "hailo",
+    city: "kriat malachi",
+    age: 29
+}
+const newObject2 = {
+    firstName: "shlomo",
+    lastName: "hailo",
+    city: "kriat malachi",
+    age: 29
+}
+const newObject3 = {
+    firstName: "shlomo",
+    lastName: "hailo",
+    city: "kriat malachi",
+    age: 29
+}
+
+const arraybject = [newObject0, newObject1, newObject2, newObject3]
+let uluser = document.getElementById('userul');
+
+arraybject.forEach((argo=>{console.log(argo)
+     for (let key in argo) {
+        uluser.innerHTML += ` <tr>${key}: ${argo[key]}</tr>`;
+    
+    
+    };
+    
+    ;}))
+
+
+
+
+
+
